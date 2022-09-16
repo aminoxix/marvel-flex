@@ -20,7 +20,7 @@ export default function Home() {
 
   const handleClick = async (e, args) => {
     e.preventDefault();
-    if (args === "") return;
+    if (args.trim() === "") return;
 
     try {
       return await fetchHeros(args);
@@ -57,7 +57,7 @@ export default function Home() {
         setError={setError}
       />
       <h2 className="text-center">what's your favourite character?</h2>
-      {error ? <p>{error}</p> : null}
+      {error ? <p>{error?.message}</p> : null}
       <FlexComponent>
         {cards.length
           ? cards

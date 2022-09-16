@@ -9,7 +9,7 @@ export default function SearchBar({ handleClick, setHeroes, setError }) {
         onClick={(e) => {
           handleClick(e, input.current.value)
           .then((data) => {
-            data.data.results.length === 0 ? setError("No heroes found...") : setHeroes(data.data.results);
+            setHeroes(data?.data?.results??[]);
           })
           .catch((err) => setError(err));
         }}
