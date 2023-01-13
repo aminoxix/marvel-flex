@@ -3,8 +3,6 @@
 <p align="center">
     <strong>🔍 A search engine access data using Marvel API, for instance, superhero comic books & series</strong>
 </p>
-<br />
-<br />
 <p align="center">
     <a href="https://github.com/aminoxix/marvel101/graphs/contributors">
         <img src="https://img.shields.io/github/contributors/aminoxix/marvel101?style=flat-square">
@@ -15,6 +13,8 @@
     <a href="https://github.com/aminoxix/marvel101/commits/main">
         <img src="https://img.shields.io/github/last-commit/aminoxix/marvel101.svg?style=flat-square">
     </a>
+    <br />
+    <br />
     <br />
     <a href="https://github.com/aminoxix/marvel101">
         <img src="https://user-images.githubusercontent.com/75872316/212346641-d9d9b258-aedf-4d0a-8854-2eafa81726d3.png">
