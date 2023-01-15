@@ -34,14 +34,8 @@ Wanna contribute to our project, but don't know how to start? Check out our [**c
 * `npm start` — Starts the development server
 * `npm run build` — Deletes existing build files & freshly bundles JavaScript code.
 
+<br />
+
 ## 📰 License
 
 > The **heloworld.xyz** project is released under the [MIT license](https://github.com/aminoxix/marvel101/blob/main/LICENSE). <br> Developed &amp; maintained by `aminos`. Copyright 2022 © aminos.
-<hr>
-
-
-
-
-<br />
-<br />
-
